@@ -1,4 +1,5 @@
 {
+  "build": "next build",
   "workspaces": [
     "main-app",
     "blog-app"
