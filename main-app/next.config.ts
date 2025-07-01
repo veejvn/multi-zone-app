@@ -5,11 +5,11 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/blog/:path*',
-        destination: 'https://blog-app.vercel.app/:path*',
+        destination: 'https://multi-zone-blog-app.vercel.app/:path*',
       },
       {
         source: '/admin/:path*',
-        destination: 'https://admin-app.vercel.app/:path*',
+        destination: 'https://multi-zone-admin-app.vercel.app/:path*',
       }
     ];
   }
