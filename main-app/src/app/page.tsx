@@ -10,6 +10,9 @@ export default function Home() {
       <Link href="/admin" prefetch={false}>
         ➡️ Đi đến Admin Zone
       </Link>
+       <Link href="/chat" prefetch={false}>
+        ➡️ Đi đến Chat Zone
+      </Link>
     </main>
   );
 }

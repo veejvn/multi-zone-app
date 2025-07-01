@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
         source: '/admin/:path*',
         destination: 'https://multi-zone-admin-app.vercel.app/:path*',
         //destination: 'http://localhost:3002/:path*',
+      },
+      {
+        source: '/chat/:path*',
+        destination: 'https://element-chat.vercel.app/:path*',
+        //destination: 'http://localhost:3002/:path*',
       }
     ];
   }
