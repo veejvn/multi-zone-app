@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/blog/:match*", "destination": "/blog-app/blog/:match*" },
     { "source": "/blog", "destination": "/blog-app/blog" },
+    { "source": "/", "destination": "/main-app" },
     { "source": "/:match*", "destination": "/main-app/:match*" }
   ]
 }
