@@ -1,5 +1,4 @@
 {
-  "projects": [],
   "rewrites": [
     { "source": "/blog/:match*", "destination": "/blog-app/blog/:match*" },
     { "source": "/blog", "destination": "/blog-app/blog" },
