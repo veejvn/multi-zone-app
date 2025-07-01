@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/blog/:path*',
-        destination: 'https://multi-zone-blog-app.vercel.app/:path*',
+        destination: 'https://multi-zone-blog-app.vercel.app/blog/:path*',
+        //destination: 'http://localhost:3001/blog/:path*', // Local development URL for the blog zone  
       },
     ];
   },
