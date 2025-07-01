@@ -1,0 +1,6 @@
+{
+  "workspaces": [
+    "main-app",
+    "blog-app"
+  ]
+}
